@@ -5,7 +5,9 @@
     <string name="app_label">Monet</string>
     <string name="search_hint">Colour Name</string>
     <string name="hello_world">Hello world!</string>
+       <string name="button_go">GO</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_search">Search</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
 
 </resources>
