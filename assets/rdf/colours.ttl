@@ -1,0 +1,2221 @@
+
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix : <http://purl.org/stuff/colors#> .
+
+		
+  
+<http://purl.org/stuff/colors#F0F8FF> a :Color;
+  :name "Alice Blue";
+  rdfs:label "Alice Blue";
+  dc:title "Alice Blue";
+  :hex "#F0F8FF";
+  :rgbRed "240";
+  :rgbGreen "248";
+  :rgbBlue "255" .
+
+  
+<http://purl.org/stuff/colors#9C0004> a :Color;
+  :name "Alizarin Crimson";
+  rdfs:label "Alizarin Crimson";
+  dc:title "Alizarin Crimson";
+  :hex "#9C0004";
+  :rgbRed "239";
+  :rgbGreen "240";
+  :rgbBlue "73" .
+
+  
+<http://purl.org/stuff/colors#FAFFD7> a :Color;
+  :name "Antique White";
+  rdfs:label "Antique White";
+  dc:title "Antique White";
+  :hex "#FAFFD7";
+  :rgbRed "250";
+  :rgbGreen "255";
+  :rgbBlue "215" .
+
+  
+<http://purl.org/stuff/colors#B1FFD4> a :Color;
+  :name "Aquamarine";
+  rdfs:label "Aquamarine";
+  dc:title "Aquamarine";
+  :hex "#B1FFD4";
+  :rgbRed "177";
+  :rgbGreen "255";
+  :rgbBlue "212" .
+
+  
+<http://purl.org/stuff/colors#66CDAA> a :Color;
+  :name "Aquamarine Medium";
+  rdfs:label "Aquamarine Medium";
+  dc:title "Aquamarine Medium";
+  :hex "#66CDAA";
+  :rgbRed "102";
+  :rgbGreen "205";
+  :rgbBlue "170" .
+
+  
+<http://purl.org/stuff/colors#FFA824> a :Color;
+  :name "Aureoline Yellow";
+  rdfs:label "Aureoline Yellow";
+  dc:title "Aureoline Yellow";
+  :hex "#FFA824";
+  :rgbRed "255";
+  :rgbGreen "168";
+  :rgbBlue "36" .
+
+  
+<http://purl.org/stuff/colors#F0FFFF> a :Color;
+  :name "Azure";
+  rdfs:label "Azure";
+  dc:title "Azure";
+  :hex "#F0FFFF";
+  :rgbRed "240";
+  :rgbGreen "255";
+  :rgbBlue "255" .
+
+  
+<http://purl.org/stuff/colors#E3CF57> a :Color;
+  :name "Banana";
+  rdfs:label "Banana";
+  dc:title "Banana";
+  :hex "#E3CF57";
+  :rgbRed "227";
+  :rgbGreen "207";
+  :rgbBlue "87" .
+
+  
+<http://purl.org/stuff/colors#A39480> a :Color;
+  :name "Beige";
+  rdfs:label "Beige";
+  dc:title "Beige";
+  :hex "#A39480";
+  :rgbRed "163";
+  :rgbGreen "148";
+  :rgbBlue "128" .
+
+  
+<http://purl.org/stuff/colors#FFE4C4> a :Color;
+  :name "Bisque";
+  rdfs:label "Bisque";
+  dc:title "Bisque";
+  :hex "#FFE4C4";
+  :rgbRed "255";
+  :rgbGreen "228";
+  :rgbBlue "196" .
+
+  
+<http://purl.org/stuff/colors> a :Color;
+  :name "Black";
+  rdfs:label "Black";
+  dc:title "Black";
+  :hex "";
+  :rgbRed "0";
+  :rgbGreen "0";
+  :rgbBlue "0" .
+
+  
+<http://purl.org/stuff/colors#FFEBCD> a :Color;
+  :name "Blanched Almond";
+  rdfs:label "Blanched Almond";
+  dc:title "Blanched Almond";
+  :hex "#FFEBCD";
+  :rgbRed "255";
+  :rgbGreen "235";
+  :rgbBlue "205" .
+
+  
+<http://purl.org/stuff/colors#0000FF> a :Color;
+  :name "Blue";
+  rdfs:label "Blue";
+  dc:title "Blue";
+  :hex "#0000FF";
+  :rgbRed "0";
+  :rgbGreen "0";
+  :rgbBlue "255" .
+
+  
+<http://purl.org/stuff/colors#ADD8E6> a :Color;
+  :name "Blue Light";
+  rdfs:label "Blue Light";
+  dc:title "Blue Light";
+  :hex "#ADD8E6";
+  :rgbRed "173";
+  :rgbGreen "216";
+  :rgbBlue "230" .
+
+  
+<http://purl.org/stuff/colors#0000CD> a :Color;
+  :name "Blue Medium";
+  rdfs:label "Blue Medium";
+  dc:title "Blue Medium";
+  :hex "#0000CD";
+  :rgbRed "0";
+  :rgbGreen "0";
+  :rgbBlue "205" .
+
+  
+<http://purl.org/stuff/colors#8A2BE2> a :Color;
+  :name "Blue Violet";
+  rdfs:label "Blue Violet";
+  dc:title "Blue Violet";
+  :hex "#8A2BE2";
+  :rgbRed "138";
+  :rgbGreen "43";
+  :rgbBlue "226" .
+
+  
+<http://purl.org/stuff/colors#9C661F> a :Color;
+  :name "Brick";
+  rdfs:label "Brick";
+  dc:title "Brick";
+  :hex "#9C661F";
+  :rgbRed "156";
+  :rgbGreen "102";
+  :rgbBlue "31" .
+
+  
+<http://purl.org/stuff/colors#802A2A> a :Color;
+  :name "Brown";
+  rdfs:label "Brown";
+  dc:title "Brown";
+  :hex "#802A2A";
+  :rgbRed "128";
+  :rgbGreen "42";
+  :rgbBlue "42" .
+
+  
+<http://purl.org/stuff/colors#DB2929> a :Color;
+  :name "Brown Madder";
+  rdfs:label "Brown Madder";
+  dc:title "Brown Madder";
+  :hex "#DB2929";
+  :rgbRed "219";
+  :rgbGreen "41";
+  :rgbBlue "41" .
+
+  
+<http://purl.org/stuff/colors#87421F> a :Color;
+  :name "Brown Ochre";
+  rdfs:label "Brown Ochre";
+  dc:title "Brown Ochre";
+  :hex "#87421F";
+  :rgbRed "135";
+  :rgbGreen "66";
+  :rgbBlue "31" .
+
+  
+<http://purl.org/stuff/colors#DEB887> a :Color;
+  :name "Burlywood";
+  rdfs:label "Burlywood";
+  dc:title "Burlywood";
+  :hex "#DEB887";
+  :rgbRed "222";
+  :rgbGreen "184";
+  :rgbBlue "135" .
+
+  
+<http://purl.org/stuff/colors#B12D00> a :Color;
+  :name "Burnt Sienna";
+  rdfs:label "Burnt Sienna";
+  dc:title "Burnt Sienna";
+  :hex "#B12D00";
+  :rgbRed "177";
+  :rgbGreen "45";
+  :rgbBlue "0" .
+
+  
+<http://purl.org/stuff/colors#241420> a :Color;
+  :name "Burnt Umber";
+  rdfs:label "Burnt Umber";
+  dc:title "Burnt Umber";
+  :hex "#241420";
+  :rgbRed "36";
+  :rgbGreen "20";
+  :rgbBlue "32" .
+
+  
+<http://purl.org/stuff/colors#5F9EA0> a :Color;
+  :name "Cadet Blue";
+  rdfs:label "Cadet Blue";
+  dc:title "Cadet Blue";
+  :hex "#5F9EA0";
+  :rgbRed "95";
+  :rgbGreen "158";
+  :rgbBlue "160" .
+
+  
+<http://purl.org/stuff/colors#FFE303> a :Color;
+  :name "Cadmium Lemon";
+  rdfs:label "Cadmium Lemon";
+  dc:title "Cadmium Lemon";
+  :hex "#FFE303";
+  :rgbRed "255";
+  :rgbGreen "227";
+  :rgbBlue "3" .
+
+  
+<http://purl.org/stuff/colors#FF6103> a :Color;
+  :name "Cadmium Orange";
+  rdfs:label "Cadmium Orange";
+  dc:title "Cadmium Orange";
+  :hex "#FF6103";
+  :rgbRed "255";
+  :rgbGreen "97";
+  :rgbBlue "3" .
+
+  
+<http://purl.org/stuff/colors#E30022> a :Color;
+  :name "Cadmium Red";
+  rdfs:label "Cadmium Red";
+  dc:title "Cadmium Red";
+  :hex "#E30022";
+  :rgbRed "227";
+  :rgbGreen "0";
+  :rgbBlue "34" .
+
+  
+<http://purl.org/stuff/colors#970015> a :Color;
+  :name "Cadmium Red Deep";
+  rdfs:label "Cadmium Red Deep";
+  dc:title "Cadmium Red Deep";
+  :hex "#970015";
+  :rgbRed "151";
+  :rgbGreen "0";
+  :rgbBlue "21" .
+
+  
+<http://purl.org/stuff/colors#FF030D> a :Color;
+  :name "Cadmium Red Light";
+  rdfs:label "Cadmium Red Light";
+  dc:title "Cadmium Red Light";
+  :hex "#FF030D";
+  :rgbRed "255";
+  :rgbGreen "3";
+  :rgbBlue "13" .
+
+  
+<http://purl.org/stuff/colors#FF9912> a :Color;
+  :name "Cadmium Yellow";
+  rdfs:label "Cadmium Yellow";
+  dc:title "Cadmium Yellow";
+  :hex "#FF9912";
+  :rgbRed "255";
+  :rgbGreen "153";
+  :rgbBlue "18" .
+
+  
+<http://purl.org/stuff/colors#F4A50A> a :Color;
+  :name "Cadmium Yellow Deep";
+  rdfs:label "Cadmium Yellow Deep";
+  dc:title "Cadmium Yellow Deep";
+  :hex "#F4A50A";
+  :rgbRed "244";
+  :rgbGreen "165";
+  :rgbBlue "10" .
+
+  
+<http://purl.org/stuff/colors#FCC119> a :Color;
+  :name "Cadmium Yellow Light";
+  rdfs:label "Cadmium Yellow Light";
+  dc:title "Cadmium Yellow Light";
+  :hex "#FCC119";
+  :rgbRed "252";
+  :rgbGreen "193";
+  :rgbBlue "25" .
+
+  
+<http://purl.org/stuff/colors#BE0019> a :Color;
+  :name "Carmine";
+  rdfs:label "Carmine";
+  dc:title "Carmine";
+  :hex "#BE0019";
+  :rgbRed "190";
+  :rgbGreen "0";
+  :rgbBlue "25" .
+
+  
+<http://purl.org/stuff/colors#ED9121> a :Color;
+  :name "Carrot";
+  rdfs:label "Carrot";
+  dc:title "Carrot";
+  :hex "#ED9121";
+  :rgbRed "237";
+  :rgbGreen "145";
+  :rgbBlue "33" .
+
+  
+<http://purl.org/stuff/colors#54D1D8> a :Color;
+  :name "Cerulean Blue";
+  rdfs:label "Cerulean Blue";
+  dc:title "Cerulean Blue";
+  :hex "#54D1D8";
+  :rgbRed "84";
+  :rgbGreen "209";
+  :rgbBlue "216" .
+
+  
+<http://purl.org/stuff/colors#80FF00> a :Color;
+  :name "Chartreuse";
+  rdfs:label "Chartreuse";
+  dc:title "Chartreuse";
+  :hex "#80FF00";
+  :rgbRed "127";
+  :rgbGreen "255";
+  :rgbBlue "0" .
+
+  
+<http://purl.org/stuff/colors#D2691E> a :Color;
+  :name "Chocolate";
+  rdfs:label "Chocolate";
+  dc:title "Chocolate";
+  :hex "#D2691E";
+  :rgbRed "210";
+  :rgbGreen "105";
+  :rgbBlue "30" .
+
+  
+<http://purl.org/stuff/colors#668014> a :Color;
+  :name "Chrome Oxide Green";
+  rdfs:label "Chrome Oxide Green";
+  dc:title "Chrome Oxide Green";
+  :hex "#668014";
+  :rgbRed "102";
+  :rgbGreen "128";
+  :rgbBlue "20" .
+
+  
+<http://purl.org/stuff/colors#61B329> a :Color;
+  :name "Cinnabar Green";
+  rdfs:label "Cinnabar Green";
+  dc:title "Cinnabar Green";
+  :hex "#61B329";
+  :rgbRed "97";
+  :rgbGreen "179";
+  :rgbBlue "41" .
+
+  
+<http://purl.org/stuff/colors#1970FC> a :Color;
+  :name "Cobalt Blue";
+  rdfs:label "Cobalt Blue";
+  dc:title "Cobalt Blue";
+  :hex "#1970FC";
+  :rgbRed "25";
+  :rgbGreen "112";
+  :rgbBlue "252" .
+
+  
+<http://purl.org/stuff/colors#0004BD> a :Color;
+  :name "Cobalt Blue Deep";
+  rdfs:label "Cobalt Blue Deep";
+  dc:title "Cobalt Blue Deep";
+  :hex "#0004BD";
+  :rgbRed "0";
+  :rgbGreen "4";
+  :rgbBlue "189" .
+
+  
+<http://purl.org/stuff/colors#3D9140> a :Color;
+  :name "Cobalt Green";
+  rdfs:label "Cobalt Green";
+  dc:title "Cobalt Green";
+  :hex "#3D9140";
+  :rgbRed "61";
+  :rgbGreen "145";
+  :rgbBlue "64" .
+
+  
+<http://purl.org/stuff/colors#7100C1> a :Color;
+  :name "Cobalt Violet";
+  rdfs:label "Cobalt Violet";
+  dc:title "Cobalt Violet";
+  :hex "#7100C1";
+  :rgbRed "113";
+  :rgbGreen "0";
+  :rgbBlue "193" .
+
+  
+<http://purl.org/stuff/colors#1300A5> a :Color;
+  :name "Cobalt Violet Dark";
+  rdfs:label "Cobalt Violet Dark";
+  dc:title "Cobalt Violet Dark";
+  :hex "#1300A5";
+  :rgbRed "19";
+  :rgbGreen "0";
+  :rgbBlue "165" .
+
+  
+<http://purl.org/stuff/colors#91219E> a :Color;
+  :name "Cobalt Violet Deep";
+  rdfs:label "Cobalt Violet Deep";
+  dc:title "Cobalt Violet Deep";
+  :hex "#91219E";
+  :rgbRed "145";
+  :rgbGreen "33";
+  :rgbBlue "158" .
+
+  
+<http://purl.org/stuff/colors#808A87> a :Color;
+  :name "Cold Grey";
+  rdfs:label "Cold Grey";
+  dc:title "Cold Grey";
+  :hex "#808A87";
+  :rgbRed "128";
+  :rgbGreen "138";
+  :rgbBlue "135" .
+
+  
+<http://purl.org/stuff/colors#FF7F50> a :Color;
+  :name "Coral";
+  rdfs:label "Coral";
+  dc:title "Coral";
+  :hex "#FF7F50";
+  :rgbRed "255";
+  :rgbGreen "127";
+  :rgbBlue "80" .
+
+  
+<http://purl.org/stuff/colors#F08080> a :Color;
+  :name "Coral Light";
+  rdfs:label "Coral Light";
+  dc:title "Coral Light";
+  :hex "#F08080";
+  :rgbRed "240";
+  :rgbGreen "128";
+  :rgbBlue "128" .
+
+  
+<http://purl.org/stuff/colors#6495ED> a :Color;
+  :name "Cornflower Blue";
+  rdfs:label "Cornflower Blue";
+  dc:title "Cornflower Blue";
+  :hex "#6495ED";
+  :rgbRed "100";
+  :rgbGreen "149";
+  :rgbBlue "237" .
+
+  
+<http://purl.org/stuff/colors#FFF8DC> a :Color;
+  :name "Cornsilk";
+  rdfs:label "Cornsilk";
+  dc:title "Cornsilk";
+  :hex "#FFF8DC";
+  :rgbRed "255";
+  :rgbGreen "248";
+  :rgbBlue "220" .
+
+  
+<http://purl.org/stuff/colors#00FFFF> a :Color;
+  :name "Cyan";
+  rdfs:label "Cyan";
+  dc:title "Cyan";
+  :hex "#00FFFF";
+  :rgbRed "0";
+  :rgbGreen "255";
+  :rgbBlue "255" .
+
+  
+<http://purl.org/stuff/colors#E0FFFF> a :Color;
+  :name "Cyan White";
+  rdfs:label "Cyan White";
+  dc:title "Cyan White";
+  :hex "#E0FFFF";
+  :rgbRed "224";
+  :rgbGreen "255";
+  :rgbBlue "255" .
+
+  
+<http://purl.org/stuff/colors#FF8C00> a :Color;
+  :name "Dark Orange";
+  rdfs:label "Dark Orange";
+  dc:title "Dark Orange";
+  :hex "#FF8C00";
+  :rgbRed "255";
+  :rgbGreen "140";
+  :rgbBlue "0" .
+
+  
+<http://purl.org/stuff/colors#733D1A> a :Color;
+  :name "Deep Ochre";
+  rdfs:label "Deep Ochre";
+  dc:title "Deep Ochre";
+  :hex "#733D1A";
+  :rgbRed "115";
+  :rgbGreen "61";
+  :rgbBlue "26" .
+
+  
+<http://purl.org/stuff/colors#FF1493> a :Color;
+  :name "Deep Pink";
+  rdfs:label "Deep Pink";
+  dc:title "Deep Pink";
+  :hex "#FF1493";
+  :rgbRed "255";
+  :rgbGreen "20";
+  :rgbBlue "147" .
+
+  
+<http://purl.org/stuff/colors#696969> a :Color;
+  :name "Dim Grey";
+  rdfs:label "Dim Grey";
+  dc:title "Dim Grey";
+  :hex "#696969";
+  :rgbRed "105";
+  :rgbGreen "105";
+  :rgbBlue "105" .
+
+  
+<http://purl.org/stuff/colors#1E90FF> a :Color;
+  :name "Dodger Blue";
+  rdfs:label "Dodger Blue";
+  dc:title "Dodger Blue";
+  :hex "#1E90FF";
+  :rgbRed "30";
+  :rgbGreen "144";
+  :rgbBlue "255" .
+
+  
+<http://purl.org/stuff/colors#FCE6C9> a :Color;
+  :name "Eggshell";
+  rdfs:label "Eggshell";
+  dc:title "Eggshell";
+  :hex "#FCE6C9";
+  :rgbRed "252";
+  :rgbGreen "230";
+  :rgbBlue "201" .
+
+  
+<http://purl.org/stuff/colors#00C957> a :Color;
+  :name "Emerald Green";
+  rdfs:label "Emerald Green";
+  dc:title "Emerald Green";
+  :hex "#00C957";
+  :rgbRed "0";
+  :rgbGreen "201";
+  :rgbBlue "87" .
+
+  
+<http://purl.org/stuff/colors#D43D1A> a :Color;
+  :name "English Red";
+  rdfs:label "English Red";
+  dc:title "English Red";
+  :hex "#D43D1A";
+  :rgbRed "212";
+  :rgbGreen "61";
+  :rgbBlue "26" .
+
+  
+<http://purl.org/stuff/colors#B22222> a :Color;
+  :name "Firebrick";
+  rdfs:label "Firebrick";
+  dc:title "Firebrick";
+  :hex "#B22222";
+  :rgbRed "178";
+  :rgbGreen "34";
+  :rgbBlue "34" .
+
+  
+<http://purl.org/stuff/colors#FF7D40> a :Color;
+  :name "Flesh";
+  rdfs:label "Flesh";
+  dc:title "Flesh";
+  :hex "#FF7D40";
+  :rgbRed "255";
+  :rgbGreen "125";
+  :rgbBlue "64" .
+
+  
+<http://purl.org/stuff/colors#FF5721> a :Color;
+  :name "Flesh Ochre";
+  rdfs:label "Flesh Ochre";
+  dc:title "Flesh Ochre";
+  :hex "#FF5721";
+  :rgbRed "255";
+  :rgbGreen "87";
+  :rgbBlue "33" .
+
+  
+<http://purl.org/stuff/colors#FFFAF0> a :Color;
+  :name "Floral White";
+  rdfs:label "Floral White";
+  dc:title "Floral White";
+  :hex "#FFFAF0";
+  :rgbRed "255";
+  :rgbGreen "250";
+  :rgbBlue "240" .
+
+  
+<http://purl.org/stuff/colors#228B22> a :Color;
+  :name "Forest Green";
+  rdfs:label "Forest Green";
+  dc:title "Forest Green";
+  :hex "#228B22";
+  :rgbRed "34";
+  :rgbGreen "139";
+  :rgbBlue "34" .
+
+  
+<http://purl.org/stuff/colors#002CD6> a :Color;
+  :name "French Ultramarine Blue";
+  rdfs:label "French Ultramarine Blue";
+  dc:title "French Ultramarine Blue";
+  :hex "#002CD6";
+  :rgbRed "0";
+  :rgbGreen "44";
+  :rgbBlue "214" .
+
+  
+<http://purl.org/stuff/colors#DCDCDC> a :Color;
+  :name "Gainsboro Grey";
+  rdfs:label "Gainsboro Grey";
+  dc:title "Gainsboro Grey";
+  :hex "#DCDCDC";
+  :rgbRed "220";
+  :rgbGreen "220";
+  :rgbBlue "220" .
+
+  
+<http://purl.org/stuff/colors#E31230> a :Color;
+  :name "Geranium Lake";
+  rdfs:label "Geranium Lake";
+  dc:title "Geranium Lake";
+  :hex "#E31230";
+  :rgbRed "227";
+  :rgbGreen "18";
+  :rgbBlue "48" .
+
+  
+<http://purl.org/stuff/colors#F8F8FF> a :Color;
+  :name "Ghost White";
+  rdfs:label "Ghost White";
+  dc:title "Ghost White";
+  :hex "#F8F8FF";
+  :rgbRed "248";
+  :rgbGreen "248";
+  :rgbBlue "255" .
+
+  
+<http://purl.org/stuff/colors#FFD700> a :Color;
+  :name "Gold";
+  rdfs:label "Gold";
+  dc:title "Gold";
+  :hex "#FFD700";
+  :rgbRed "255";
+  :rgbGreen "215";
+  :rgbBlue "0" .
+
+  
+<http://purl.org/stuff/colors#C77826> a :Color;
+  :name "Gold Ochre";
+  rdfs:label "Gold Ochre";
+  dc:title "Gold Ochre";
+  :hex "#C77826";
+  :rgbRed "199";
+  :rgbGreen "120";
+  :rgbBlue "38" .
+
+  
+<http://purl.org/stuff/colors#DAA520> a :Color;
+  :name "Goldenrod";
+  rdfs:label "Goldenrod";
+  dc:title "Goldenrod";
+  :hex "#DAA520";
+  :rgbRed "218";
+  :rgbGreen "165";
+  :rgbBlue "32" .
+
+  
+<http://purl.org/stuff/colors#B8860B> a :Color;
+  :name "Goldenrod Dark";
+  rdfs:label "Goldenrod Dark";
+  dc:title "Goldenrod Dark";
+  :hex "#B8860B";
+  :rgbRed "184";
+  :rgbGreen "134";
+  :rgbBlue "11" .
+
+  
+<http://purl.org/stuff/colors#FAFAD2> a :Color;
+  :name "Goldenrod Light";
+  rdfs:label "Goldenrod Light";
+  dc:title "Goldenrod Light";
+  :hex "#FAFAD2";
+  :rgbRed "250";
+  :rgbGreen "250";
+  :rgbBlue "210" .
+
+  
+<http://purl.org/stuff/colors#EEE8AA> a :Color;
+  :name "Goldenrod Pale";
+  rdfs:label "Goldenrod Pale";
+  dc:title "Goldenrod Pale";
+  :hex "#EEE8AA";
+  :rgbRed "238";
+  :rgbGreen "232";
+  :rgbBlue "170" .
+
+  
+<http://purl.org/stuff/colors#00FF00> a :Color;
+  :name "Green";
+  rdfs:label "Green";
+  dc:title "Green";
+  :hex "#00FF00";
+  :rgbRed "0";
+  :rgbGreen "255";
+  :rgbBlue "0" .
+
+  
+<http://purl.org/stuff/colors#006401> a :Color;
+  :name "Green Dark";
+  rdfs:label "Green Dark";
+  dc:title "Green Dark";
+  :hex "#006401";
+  :rgbRed "0";
+  :rgbGreen "100";
+  :rgbBlue "0" .
+
+  
+<http://purl.org/stuff/colors#98FB97> a :Color;
+  :name "Green Pale";
+  rdfs:label "Green Pale";
+  dc:title "Green Pale";
+  :hex "#98FB97";
+  :rgbRed "152";
+  :rgbGreen "251";
+  :rgbBlue "151" .
+
+  
+<http://purl.org/stuff/colors#ADFF2F> a :Color;
+  :name "Green Yellow";
+  rdfs:label "Green Yellow";
+  dc:title "Green Yellow";
+  :hex "#ADFF2F";
+  :rgbRed "173";
+  :rgbGreen "255";
+  :rgbBlue "47" .
+
+  
+<http://purl.org/stuff/colors#FF3D0D> a :Color;
+  :name "Greenish Umber";
+  rdfs:label "Greenish Umber";
+  dc:title "Greenish Umber";
+  :hex "#FF3D0D";
+  :rgbRed "255";
+  :rgbGreen "61";
+  :rgbBlue "13" .
+
+  
+<http://purl.org/stuff/colors#C0C0C0> a :Color;
+  :name "Grey";
+  rdfs:label "Grey";
+  dc:title "Grey";
+  :hex "#C0C0C0";
+  :rgbRed "192";
+  :rgbGreen "192";
+  :rgbBlue "192" .
+
+  
+<http://purl.org/stuff/colors#FCD31C> a :Color;
+  :name "Hansa Yellow";
+  rdfs:label "Hansa Yellow";
+  dc:title "Hansa Yellow";
+  :hex "#FCD31C";
+  :rgbRed "252";
+  :rgbGreen "211";
+  :rgbBlue "28" .
+
+  
+<http://purl.org/stuff/colors#EF8D02> a :Color;
+  :name "Hansa Yellow Deep";
+  rdfs:label "Hansa Yellow Deep";
+  dc:title "Hansa Yellow Deep";
+  :hex "#EF8D02";
+  :rgbRed "239";
+  :rgbGreen "141";
+  :rgbBlue "2" .
+
+  
+<http://purl.org/stuff/colors#F7FC35> a :Color;
+  :name "Hansa Yellow Light";
+  rdfs:label "Hansa Yellow Light";
+  dc:title "Hansa Yellow Light";
+  :hex "#F7FC35";
+  :rgbRed "247";
+  :rgbGreen "252";
+  :rgbBlue "53" .
+
+  
+<http://purl.org/stuff/colors#F0FFF0> a :Color;
+  :name "Honeydew";
+  rdfs:label "Honeydew";
+  dc:title "Honeydew";
+  :hex "#F0FFF0";
+  :rgbRed "240";
+  :rgbGreen "255";
+  :rgbBlue "240" .
+
+  
+<http://purl.org/stuff/colors#FF69B4> a :Color;
+  :name "Hot Pink";
+  rdfs:label "Hot Pink";
+  dc:title "Hot Pink";
+  :hex "#FF69B4";
+  :rgbRed "255";
+  :rgbGreen "105";
+  :rgbBlue "180" .
+
+  
+<http://purl.org/stuff/colors#6E0303> a :Color;
+  :name "Indian Red";
+  rdfs:label "Indian Red";
+  dc:title "Indian Red";
+  :hex "#6E0303";
+  :rgbRed "110";
+  :rgbGreen "3";
+  :rgbBlue "3" .
+
+  
+<http://purl.org/stuff/colors#F2AA00> a :Color;
+  :name "Indian Yellow";
+  rdfs:label "Indian Yellow";
+  dc:title "Indian Yellow";
+  :hex "#F2AA00";
+  :rgbRed "242";
+  :rgbGreen "170";
+  :rgbBlue "0" .
+
+  
+<http://purl.org/stuff/colors#082E54> a :Color;
+  :name "Indigo";
+  rdfs:label "Indigo";
+  dc:title "Indigo";
+  :hex "#082E54";
+  :rgbRed "8";
+  :rgbGreen "46";
+  :rgbBlue "84" .
+
+  
+<http://purl.org/stuff/colors#FFFFF0> a :Color;
+  :name "Ivory";
+  rdfs:label "Ivory";
+  dc:title "Ivory";
+  :hex "#FFFFF0";
+  :rgbRed "255";
+  :rgbGreen "255";
+  :rgbBlue "240" .
+
+  
+<http://purl.org/stuff/colors#29243B> a :Color;
+  :name "Ivory Black";
+  rdfs:label "Ivory Black";
+  dc:title "Ivory Black";
+  :hex "#29243B";
+  :rgbRed "41";
+  :rgbGreen "36";
+  :rgbBlue "33" .
+
+  
+<http://purl.org/stuff/colors#F0E68C> a :Color;
+  :name "Khaki";
+  rdfs:label "Khaki";
+  dc:title "Khaki";
+  :hex "#F0E68C";
+  :rgbRed "240";
+  :rgbGreen "230";
+  :rgbBlue "140" .
+
+  
+<http://purl.org/stuff/colors#BDB76B> a :Color;
+  :name "Khaki Dark";
+  rdfs:label "Khaki Dark";
+  dc:title "Khaki Dark";
+  :hex "#BDB76B";
+  :rgbRed "189";
+  :rgbGreen "183";
+  :rgbBlue "107" .
+
+  
+<http://purl.org/stuff/colors#2E473B> a :Color;
+  :name "Lamp Black";
+  rdfs:label "Lamp Black";
+  dc:title "Lamp Black";
+  :hex "#2E473B";
+  :rgbRed "46";
+  :rgbGreen "71";
+  :rgbBlue "59" .
+
+  
+<http://purl.org/stuff/colors#E6E6FA> a :Color;
+  :name "Lavender";
+  rdfs:label "Lavender";
+  dc:title "Lavender";
+  :hex "#E6E6FA";
+  :rgbRed "230";
+  :rgbGreen "230";
+  :rgbBlue "250" .
+
+  
+<http://purl.org/stuff/colors#FFF0F5> a :Color;
+  :name "Lavender Blush";
+  rdfs:label "Lavender Blush";
+  dc:title "Lavender Blush";
+  :hex "#FFF0F5";
+  :rgbRed "255";
+  :rgbGreen "240";
+  :rgbBlue "245" .
+
+  
+<http://purl.org/stuff/colors#7CFC00> a :Color;
+  :name "Lawn Green";
+  rdfs:label "Lawn Green";
+  dc:title "Lawn Green";
+  :hex "#7CFC00";
+  :rgbRed "124";
+  :rgbGreen "252";
+  :rgbBlue "0" .
+
+  
+<http://purl.org/stuff/colors#FFFACD> a :Color;
+  :name "Lemon Chiffon";
+  rdfs:label "Lemon Chiffon";
+  dc:title "Lemon Chiffon";
+  :hex "#FFFACD";
+  :rgbRed "255";
+  :rgbGreen "250";
+  :rgbBlue "205" .
+
+  
+<http://purl.org/stuff/colors#F5F5DC> a :Color;
+  :name "Light Beige";
+  rdfs:label "Light Beige";
+  dc:title "Light Beige";
+  :hex "#F5F5DC";
+  :rgbRed "245";
+  :rgbGreen "245";
+  :rgbBlue "220" .
+
+  
+<http://purl.org/stuff/colors#EEDD82> a :Color;
+  :name "Light Goldenrod";
+  rdfs:label "Light Goldenrod";
+  dc:title "Light Goldenrod";
+  :hex "#EEDD82";
+  :rgbRed "238";
+  :rgbGreen "221";
+  :rgbBlue "130" .
+
+  
+<http://purl.org/stuff/colors#D3D3D3> a :Color;
+  :name "Light Grey";
+  rdfs:label "Light Grey";
+  dc:title "Light Grey";
+  :hex "#D3D3D3";
+  :rgbRed "211";
+  :rgbGreen "211";
+  :rgbBlue "211" .
+
+  
+<http://purl.org/stuff/colors#32CD32> a :Color;
+  :name "Lime Green";
+  rdfs:label "Lime Green";
+  dc:title "Lime Green";
+  :hex "#32CD32";
+  :rgbRed "50";
+  :rgbGreen "205";
+  :rgbBlue "50" .
+
+  
+<http://purl.org/stuff/colors#FAF0E6> a :Color;
+  :name "Linen";
+  rdfs:label "Linen";
+  dc:title "Linen";
+  :hex "#FAF0E6";
+  :rgbRed "250";
+  :rgbGreen "240";
+  :rgbBlue "230" .
+
+  
+<http://purl.org/stuff/colors#E32E30> a :Color;
+  :name "Madder Lake Deep";
+  rdfs:label "Madder Lake Deep";
+  dc:title "Madder Lake Deep";
+  :hex "#E32E30";
+  :rgbRed "227";
+  :rgbGreen "46";
+  :rgbBlue "48" .
+
+  
+<http://purl.org/stuff/colors#FF00FF> a :Color;
+  :name "Magenta";
+  rdfs:label "Magenta";
+  dc:title "Magenta";
+  :hex "#FF00FF";
+  :rgbRed "255";
+  :rgbGreen "0";
+  :rgbBlue "255" .
+
+  
+<http://purl.org/stuff/colors#3FBAFF> a :Color;
+  :name "Manganese Blue";
+  rdfs:label "Manganese Blue";
+  dc:title "Manganese Blue";
+  :hex "#3FBAFF";
+  :rgbRed "63";
+  :rgbGreen "186";
+  :rgbBlue "255" .
+
+  
+<http://purl.org/stuff/colors#B03060> a :Color;
+  :name "Maroon";
+  rdfs:label "Maroon";
+  dc:title "Maroon";
+  :hex "#B03060";
+  :rgbRed "176";
+  :rgbGreen "48";
+  :rgbBlue "96" .
+
+  
+<http://purl.org/stuff/colors#000000> a :Color;
+  :name "Mars Black";
+  rdfs:label "Mars Black";
+  dc:title "Mars Black";
+  :hex "#000000";
+  :rgbRed "0";
+  :rgbGreen "0";
+  :rgbBlue "0" .
+
+  
+<http://purl.org/stuff/colors#964514> a :Color;
+  :name "Mars Orange";
+  rdfs:label "Mars Orange";
+  dc:title "Mars Orange";
+  :hex "#964514";
+  :rgbRed "150";
+  :rgbGreen "69";
+  :rgbBlue "20" .
+
+  
+<http://purl.org/stuff/colors#E3701A> a :Color;
+  :name "Mars Yellow";
+  rdfs:label "Mars Yellow";
+  dc:title "Mars Yellow";
+  :hex "#E3701A";
+  :rgbRed "227";
+  :rgbGreen "112";
+  :rgbBlue "26" .
+
+  
+<http://purl.org/stuff/colors#E3A869> a :Color;
+  :name "Melon";
+  rdfs:label "Melon";
+  dc:title "Melon";
+  :hex "#E3A869";
+  :rgbRed "227";
+  :rgbGreen "168";
+  :rgbBlue "105" .
+
+  
+<http://purl.org/stuff/colors#191970> a :Color;
+  :name "Midnight Blue";
+  rdfs:label "Midnight Blue";
+  dc:title "Midnight Blue";
+  :hex "#191970";
+  :rgbRed "25";
+  :rgbGreen "25";
+  :rgbBlue "112" .
+
+  
+<http://purl.org/stuff/colors#F5FFFA> a :Color;
+  :name "Mint Cream";
+  rdfs:label "Mint Cream";
+  dc:title "Mint Cream";
+  :hex "#F5FFFA";
+  :rgbRed "245";
+  :rgbGreen "255";
+  :rgbBlue "250" .
+
+  
+<http://purl.org/stuff/colors#BDFCC9> a :Color;
+  :name "Mint Green";
+  rdfs:label "Mint Green";
+  dc:title "Mint Green";
+  :hex "#BDFCC9";
+  :rgbRed "189";
+  :rgbGreen "252";
+  :rgbBlue "201" .
+
+  
+<http://purl.org/stuff/colors#FFE4FF> a :Color;
+  :name "Misty Rose";
+  rdfs:label "Misty Rose";
+  dc:title "Misty Rose";
+  :hex "#FFE4FF";
+  :rgbRed "255";
+  :rgbGreen "228";
+  :rgbBlue "255" .
+
+  
+<http://purl.org/stuff/colors#FFE4B5> a :Color;
+  :name "Moccasin";
+  rdfs:label "Moccasin";
+  dc:title "Moccasin";
+  :hex "#FFE4B5";
+  :rgbRed "255";
+  :rgbGreen "228";
+  :rgbBlue "181" .
+
+  
+<http://purl.org/stuff/colors#F9DB60> a :Color;
+  :name "Naples Yellow";
+  rdfs:label "Naples Yellow";
+  dc:title "Naples Yellow";
+  :hex "#F9DB60";
+  :rgbRed "249";
+  :rgbGreen "219";
+  :rgbBlue "96" .
+
+  
+<http://purl.org/stuff/colors#FFA812> a :Color;
+  :name "Naples Yellow Deep";
+  rdfs:label "Naples Yellow Deep";
+  dc:title "Naples Yellow Deep";
+  :hex "#FFA812";
+  :rgbRed "255";
+  :rgbGreen "168";
+  :rgbBlue "18" .
+
+  
+<http://purl.org/stuff/colors#F9F98E> a :Color;
+  :name "Naples Yellow Light";
+  rdfs:label "Naples Yellow Light";
+  dc:title "Naples Yellow Light";
+  :hex "#F9F98E";
+  :rgbRed "249";
+  :rgbGreen "249";
+  :rgbBlue "142" .
+
+  
+<http://purl.org/stuff/colors#FFDEAD> a :Color;
+  :name "Navajo White";
+  rdfs:label "Navajo White";
+  dc:title "Navajo White";
+  :hex "#FFDEAD";
+  :rgbRed "255";
+  :rgbGreen "222";
+  :rgbBlue "173" .
+
+  
+<http://purl.org/stuff/colors#000080> a :Color;
+  :name "Navy Blue";
+  rdfs:label "Navy Blue";
+  dc:title "Navy Blue";
+  :hex "#000080";
+  :rgbRed "0";
+  :rgbGreen "0";
+  :rgbBlue "128" .
+
+  
+<http://purl.org/stuff/colors#FDF5E6> a :Color;
+  :name "Old Lace";
+  rdfs:label "Old Lace";
+  dc:title "Old Lace";
+  :hex "#FDF5E6";
+  :rgbRed "253";
+  :rgbGreen "245";
+  :rgbBlue "230" .
+
+  
+<http://purl.org/stuff/colors#6B8E23> a :Color;
+  :name "Olive Drab";
+  rdfs:label "Olive Drab";
+  dc:title "Olive Drab";
+  :hex "#6B8E23";
+  :rgbRed "107";
+  :rgbGreen "142";
+  :rgbBlue "35" .
+
+  
+<http://purl.org/stuff/colors#3B5E2B> a :Color;
+  :name "Olive Green";
+  rdfs:label "Olive Green";
+  dc:title "Olive Green";
+  :hex "#3B5E2B";
+  :rgbRed "59";
+  :rgbGreen "94";
+  :rgbBlue "43" .
+
+  
+<http://purl.org/stuff/colors#546B2F> a :Color;
+  :name "Olive Green Dark";
+  rdfs:label "Olive Green Dark";
+  dc:title "Olive Green Dark";
+  :hex "#546B2F";
+  :rgbRed "85";
+  :rgbGreen "107";
+  :rgbBlue "47" .
+
+  
+<http://purl.org/stuff/colors#FF8000> a :Color;
+  :name "Orange";
+  rdfs:label "Orange";
+  dc:title "Orange";
+  :hex "#FF8000";
+  :rgbRed "255";
+  :rgbGreen "128";
+  :rgbBlue "0" .
+
+  
+<http://purl.org/stuff/colors#FF4500> a :Color;
+  :name "Orange Red";
+  rdfs:label "Orange Red";
+  dc:title "Orange Red";
+  :hex "#FF4500";
+  :rgbRed "255";
+  :rgbGreen "69";
+  :rgbBlue "0" .
+
+  
+<http://purl.org/stuff/colors#DA70D6> a :Color;
+  :name "Orchid";
+  rdfs:label "Orchid";
+  dc:title "Orchid";
+  :hex "#DA70D6";
+  :rgbRed "218";
+  :rgbGreen "112";
+  :rgbBlue "214" .
+
+  
+<http://purl.org/stuff/colors#9932CC> a :Color;
+  :name "Orchid Dark";
+  rdfs:label "Orchid Dark";
+  dc:title "Orchid Dark";
+  :hex "#9932CC";
+  :rgbRed "153";
+  :rgbGreen "50";
+  :rgbBlue "204" .
+
+  
+<http://purl.org/stuff/colors#BA55D3> a :Color;
+  :name "Orchid Medium";
+  rdfs:label "Orchid Medium";
+  dc:title "Orchid Medium";
+  :hex "#BA55D3";
+  :rgbRed "186";
+  :rgbGreen "85";
+  :rgbBlue "211" .
+
+  
+<http://purl.org/stuff/colors#FFEFD5> a :Color;
+  :name "Papaya Whip";
+  rdfs:label "Papaya Whip";
+  dc:title "Papaya Whip";
+  :hex "#FFEFD5";
+  :rgbRed "255";
+  :rgbGreen "239";
+  :rgbBlue "213" .
+
+  
+<http://purl.org/stuff/colors#151D24> a :Color;
+  :name "Payne's Gray";
+  rdfs:label "Payne's Gray";
+  dc:title "Payne's Gray";
+  :hex "#151D24";
+  :rgbRed "21";
+  :rgbGreen "29";
+  :rgbBlue "36" .
+
+  
+<http://purl.org/stuff/colors#FFDAB9> a :Color;
+  :name "Peach Puff";
+  rdfs:label "Peach Puff";
+  dc:title "Peach Puff";
+  :hex "#FFDAB9";
+  :rgbRed "255";
+  :rgbGreen "218";
+  :rgbBlue "185" .
+
+  
+<http://purl.org/stuff/colors#33A1C9> a :Color;
+  :name "Peacock Blue";
+  rdfs:label "Peacock Blue";
+  dc:title "Peacock Blue";
+  :hex "#33A1C9";
+  :rgbRed "51";
+  :rgbGreen "161";
+  :rgbBlue "201" .
+
+  
+<http://purl.org/stuff/colors#177320> a :Color;
+  :name "Permanent Green";
+  rdfs:label "Permanent Green";
+  dc:title "Permanent Green";
+  :hex "#177320";
+  :rgbRed "23";
+  :rgbGreen "115";
+  :rgbBlue "32" .
+
+  
+<http://purl.org/stuff/colors#32D319> a :Color;
+  :name "Permanent Green Light";
+  rdfs:label "Permanent Green Light";
+  dc:title "Permanent Green Light";
+  :hex "#32D319";
+  :rgbRed "50";
+  :rgbGreen "211";
+  :rgbBlue "25" .
+
+  
+<http://purl.org/stuff/colors#0C005A> a :Color;
+  :name "Permanent Mauve";
+  rdfs:label "Permanent Mauve";
+  dc:title "Permanent Mauve";
+  :hex "#0C005A";
+  :rgbRed "12";
+  :rgbGreen "0";
+  :rgbBlue "90" .
+
+  
+<http://purl.org/stuff/colors#DB2645> a :Color;
+  :name "Permanent Violet";
+  rdfs:label "Permanent Violet";
+  dc:title "Permanent Violet";
+  :hex "#DB2645";
+  :rgbRed "219";
+  :rgbGreen "38";
+  :rgbBlue "69" .
+
+  
+<http://purl.org/stuff/colors#CD853F> a :Color;
+  :name "Peru";
+  rdfs:label "Peru";
+  dc:title "Peru";
+  :hex "#CD853F";
+  :rgbRed "205";
+  :rgbGreen "133";
+  :rgbBlue "63" .
+
+  
+<http://purl.org/stuff/colors#000E9A> a :Color;
+  :name "Phthalo Blue";
+  rdfs:label "Phthalo Blue";
+  dc:title "Phthalo Blue";
+  :hex "#000E9A";
+  :rgbRed "0";
+  :rgbGreen "14";
+  :rgbBlue "154" .
+
+  
+<http://purl.org/stuff/colors#158100> a :Color;
+  :name "Phthalo Green";
+  rdfs:label "Phthalo Green";
+  dc:title "Phthalo Green";
+  :hex "#158100";
+  :rgbRed "21";
+  :rgbGreen "129";
+  :rgbBlue "0" .
+
+  
+<http://purl.org/stuff/colors#000F89> a :Color;
+  :name "Phthalo Blue";
+  rdfs:label "Phthalo Blue";
+  dc:title "Phthalo Blue";
+  :hex "#000F89";
+  :rgbRed "0";
+  :rgbGreen "14";
+  :rgbBlue "154" .
+
+  
+<http://purl.org/stuff/colors#123524> a :Color;
+  :name "Phthalo Green";
+  rdfs:label "Phthalo Green";
+  dc:title "Phthalo Green";
+  :hex "#123524";
+  :rgbRed "21";
+  :rgbGreen "129";
+  :rgbBlue "0" .
+
+  
+<http://purl.org/stuff/colors#FFBFCB> a :Color;
+  :name "Pink";
+  rdfs:label "Pink";
+  dc:title "Pink";
+  :hex "#FFBFCB";
+  :rgbRed "255";
+  :rgbGreen "191";
+  :rgbBlue "203" .
+
+  
+<http://purl.org/stuff/colors#FFB6C1> a :Color;
+  :name "Pink Light";
+  rdfs:label "Pink Light";
+  dc:title "Pink Light";
+  :hex "#FFB6C1";
+  :rgbRed "255";
+  :rgbGreen "182";
+  :rgbBlue "193" .
+
+  
+<http://purl.org/stuff/colors#DDA0DD> a :Color;
+  :name "Plum";
+  rdfs:label "Plum";
+  dc:title "Plum";
+  :hex "#DDA0DD";
+  :rgbRed "221";
+  :rgbGreen "160";
+  :rgbBlue "221" .
+
+  
+<http://purl.org/stuff/colors#B0E0E6> a :Color;
+  :name "Powder Blue";
+  rdfs:label "Powder Blue";
+  dc:title "Powder Blue";
+  :hex "#B0E0E6";
+  :rgbRed "176";
+  :rgbGreen "224";
+  :rgbBlue "230" .
+
+  
+<http://purl.org/stuff/colors#000E9A> a :Color;
+  :name "Prussian Blue";
+  rdfs:label "Prussian Blue";
+  dc:title "Prussian Blue";
+  :hex "#000E9A";
+  :rgbRed "0";
+  :rgbGreen "3";
+  :rgbBlue "154" .
+
+  
+<http://purl.org/stuff/colors#123524> a :Color;
+  :name "Prussian Green";
+  rdfs:label "Prussian Green";
+  dc:title "Prussian Green";
+  :hex "#123524";
+  :rgbRed "21";
+  :rgbGreen "129";
+  :rgbBlue "0" .
+
+  
+<http://purl.org/stuff/colors#A020F0> a :Color;
+  :name "Purple";
+  rdfs:label "Purple";
+  dc:title "Purple";
+  :hex "#A020F0";
+  :rgbRed "160";
+  :rgbGreen "32";
+  :rgbBlue "240" .
+
+  
+<http://purl.org/stuff/colors#3E0423> a :Color;
+  :name "Purple Madder Alizarin";
+  rdfs:label "Purple Madder Alizarin";
+  dc:title "Purple Madder Alizarin";
+  :hex "#3E0423";
+  :rgbRed "62";
+  :rgbGreen "4";
+  :rgbBlue "35" .
+
+  
+<http://purl.org/stuff/colors#9370DB> a :Color;
+  :name "Purple Medium";
+  rdfs:label "Purple Medium";
+  dc:title "Purple Medium";
+  :hex "#9370DB";
+  :rgbRed "147";
+  :rgbGreen "112";
+  :rgbBlue "219" .
+
+  
+<http://purl.org/stuff/colors#C00202> a :Color;
+  :name "Pyrrol Red";
+  rdfs:label "Pyrrol Red";
+  dc:title "Pyrrol Red";
+  :hex "#C00202";
+  :rgbRed "192";
+  :rgbGreen "2";
+  :rgbBlue "2" .
+
+  
+<http://purl.org/stuff/colors#A2060C> a :Color;
+  :name "Quinacridone Red";
+  rdfs:label "Quinacridone Red";
+  dc:title "Quinacridone Red";
+  :hex "#A2060C";
+  :rgbRed "162";
+  :rgbGreen "5";
+  :rgbBlue "12" .
+
+  
+<http://purl.org/stuff/colors#53124C> a :Color;
+  :name "Quinizarin Maroon";
+  rdfs:label "Quinizarin Maroon";
+  dc:title "Quinizarin Maroon";
+  :hex "#53124C";
+  :rgbRed "83";
+  :rgbGreen "18";
+  :rgbBlue "76" .
+
+  
+<http://purl.org/stuff/colors#872657> a :Color;
+  :name "Raspberry";
+  rdfs:label "Raspberry";
+  dc:title "Raspberry";
+  :hex "#872657";
+  :rgbRed "135";
+  :rgbGreen "38";
+  :rgbBlue "87" .
+
+  
+<http://purl.org/stuff/colors#C36E00> a :Color;
+  :name "Raw Sienna";
+  rdfs:label "Raw Sienna";
+  dc:title "Raw Sienna";
+  :hex "#C36E00";
+  :rgbRed "195";
+  :rgbGreen "110";
+  :rgbBlue "0" .
+
+  
+<http://purl.org/stuff/colors#ED70B5> a :Color;
+  :name "Raw Umber";
+  rdfs:label "Raw Umber";
+  dc:title "Raw Umber";
+  :hex "#ED70B5";
+  :rgbRed "60";
+  :rgbGreen "37";
+  :rgbBlue "16" .
+
+  
+<http://purl.org/stuff/colors#FF0000> a :Color;
+  :name "Red";
+  rdfs:label "Red";
+  dc:title "Red";
+  :hex "#FF0000";
+  :rgbRed "255";
+  :rgbGreen "0";
+  :rgbBlue "0" .
+
+  
+<http://purl.org/stuff/colors#E33638> a :Color;
+  :name "Rose Madder";
+  rdfs:label "Rose Madder";
+  dc:title "Rose Madder";
+  :hex "#E33638";
+  :rgbRed "227";
+  :rgbGreen "54";
+  :rgbBlue "56" .
+
+  
+<http://purl.org/stuff/colors#ED70B5> a :Color;
+  :name "Rose Madder Deep";
+  rdfs:label "Rose Madder Deep";
+  dc:title "Rose Madder Deep";
+  :hex "#ED70B5";
+  :rgbRed "237";
+  :rgbGreen "112";
+  :rgbBlue "181" .
+
+  
+<http://purl.org/stuff/colors#E30574> a :Color;
+  :name "Rose Madder Genuine";
+  rdfs:label "Rose Madder Genuine";
+  dc:title "Rose Madder Genuine";
+  :hex "#E30574";
+  :rgbRed "227";
+  :rgbGreen "5";
+  :rgbBlue "116" .
+
+  
+<http://purl.org/stuff/colors#BC8F8F> a :Color;
+  :name "Rosy Brown";
+  rdfs:label "Rosy Brown";
+  dc:title "Rosy Brown";
+  :hex "#BC8F8F";
+  :rgbRed "188";
+  :rgbGreen "143";
+  :rgbBlue "143" .
+
+  
+<http://purl.org/stuff/colors#4169E1> a :Color;
+  :name "Royal Blue";
+  rdfs:label "Royal Blue";
+  dc:title "Royal Blue";
+  :hex "#4169E1";
+  :rgbRed "65";
+  :rgbGreen "105";
+  :rgbBlue "225" .
+
+  
+<http://purl.org/stuff/colors#8B4513> a :Color;
+  :name "Saddle Brown";
+  rdfs:label "Saddle Brown";
+  dc:title "Saddle Brown";
+  :hex "#8B4513";
+  :rgbRed "139";
+  :rgbGreen "69";
+  :rgbBlue "19" .
+
+  
+<http://purl.org/stuff/colors#FA8072> a :Color;
+  :name "Salmon";
+  rdfs:label "Salmon";
+  dc:title "Salmon";
+  :hex "#FA8072";
+  :rgbRed "250";
+  :rgbGreen "128";
+  :rgbBlue "114" .
+
+  
+<http://purl.org/stuff/colors#FFA07A> a :Color;
+  :name "Salmon Light";
+  rdfs:label "Salmon Light";
+  dc:title "Salmon Light";
+  :hex "#FFA07A";
+  :rgbRed "255";
+  :rgbGreen "160";
+  :rgbBlue "122" .
+
+  
+<http://purl.org/stuff/colors#F4A460> a :Color;
+  :name "Sandy Brown";
+  rdfs:label "Sandy Brown";
+  dc:title "Sandy Brown";
+  :hex "#F4A460";
+  :rgbRed "244";
+  :rgbGreen "164";
+  :rgbBlue "96" .
+
+  
+<http://purl.org/stuff/colors#1B7A00> a :Color;
+  :name "Sap Green";
+  rdfs:label "Sap Green";
+  dc:title "Sap Green";
+  :hex "#1B7A00";
+  :rgbRed "27";
+  :rgbGreen "122";
+  :rgbBlue "0" .
+
+  
+<http://purl.org/stuff/colors#2E8B57> a :Color;
+  :name "Sea Green";
+  rdfs:label "Sea Green";
+  dc:title "Sea Green";
+  :hex "#2E8B57";
+  :rgbRed "46";
+  :rgbGreen "139";
+  :rgbBlue "87" .
+
+  
+<http://purl.org/stuff/colors#8FBC8F> a :Color;
+  :name "Sea Green Dark";
+  rdfs:label "Sea Green Dark";
+  dc:title "Sea Green Dark";
+  :hex "#8FBC8F";
+  :rgbRed "143";
+  :rgbGreen "188";
+  :rgbBlue "143" .
+
+  
+<http://purl.org/stuff/colors#20B2AA> a :Color;
+  :name "Sea Green Light";
+  rdfs:label "Sea Green Light";
+  dc:title "Sea Green Light";
+  :hex "#20B2AA";
+  :rgbRed "32";
+  :rgbGreen "178";
+  :rgbBlue "170" .
+
+  
+<http://purl.org/stuff/colors#3CB371> a :Color;
+  :name "Sea Green Medium";
+  rdfs:label "Sea Green Medium";
+  dc:title "Sea Green Medium";
+  :hex "#3CB371";
+  :rgbRed "60";
+  :rgbGreen "179";
+  :rgbBlue "113" .
+
+  
+<http://purl.org/stuff/colors#FFF5EE> a :Color;
+  :name "Seashell";
+  rdfs:label "Seashell";
+  dc:title "Seashell";
+  :hex "#FFF5EE";
+  :rgbRed "255";
+  :rgbGreen "245";
+  :rgbBlue "238" .
+
+  
+<http://purl.org/stuff/colors#5E2612> a :Color;
+  :name "Sepia";
+  rdfs:label "Sepia";
+  dc:title "Sepia";
+  :hex "#5E2612";
+  :rgbRed "94";
+  :rgbGreen "38";
+  :rgbBlue "18" .
+
+  
+<http://purl.org/stuff/colors#A0522D> a :Color;
+  :name "Sienna";
+  rdfs:label "Sienna";
+  dc:title "Sienna";
+  :hex "#A0522D";
+  :rgbRed "160";
+  :rgbGreen "82";
+  :rgbBlue "45" .
+
+  
+<http://purl.org/stuff/colors#87CEEB> a :Color;
+  :name "Sky Blue";
+  rdfs:label "Sky Blue";
+  dc:title "Sky Blue";
+  :hex "#87CEEB";
+  :rgbRed "135";
+  :rgbGreen "206";
+  :rgbBlue "235" .
+
+  
+<http://purl.org/stuff/colors#00BFFF> a :Color;
+  :name "Sky Blue Deep";
+  rdfs:label "Sky Blue Deep";
+  dc:title "Sky Blue Deep";
+  :hex "#00BFFF";
+  :rgbRed "0";
+  :rgbGreen "191";
+  :rgbBlue "255" .
+
+  
+<http://purl.org/stuff/colors#87CEFA> a :Color;
+  :name "Sky Blue Light";
+  rdfs:label "Sky Blue Light";
+  dc:title "Sky Blue Light";
+  :hex "#87CEFA";
+  :rgbRed "135";
+  :rgbGreen "206";
+  :rgbBlue "250" .
+
+  
+<http://purl.org/stuff/colors#6A5ACD> a :Color;
+  :name "Slate Blue";
+  rdfs:label "Slate Blue";
+  dc:title "Slate Blue";
+  :hex "#6A5ACD";
+  :rgbRed "106";
+  :rgbGreen "90";
+  :rgbBlue "205" .
+
+  
+<http://purl.org/stuff/colors#483C8B> a :Color;
+  :name "Slate Blue Dark";
+  rdfs:label "Slate Blue Dark";
+  dc:title "Slate Blue Dark";
+  :hex "#483C8B";
+  :rgbRed "72";
+  :rgbGreen "61";
+  :rgbBlue "139" .
+
+  
+<http://purl.org/stuff/colors#8470FF> a :Color;
+  :name "Slate Blue Light";
+  rdfs:label "Slate Blue Light";
+  dc:title "Slate Blue Light";
+  :hex "#8470FF";
+  :rgbRed "132";
+  :rgbGreen "112";
+  :rgbBlue "255" .
+
+  
+<http://purl.org/stuff/colors#7B68EE> a :Color;
+  :name "Slate Blue Medium";
+  rdfs:label "Slate Blue Medium";
+  dc:title "Slate Blue Medium";
+  :hex "#7B68EE";
+  :rgbRed "123";
+  :rgbGreen "104";
+  :rgbBlue "238" .
+
+  
+<http://purl.org/stuff/colors#708090> a :Color;
+  :name "Slate Grey";
+  rdfs:label "Slate Grey";
+  dc:title "Slate Grey";
+  :hex "#708090";
+  :rgbRed "112";
+  :rgbGreen "128";
+  :rgbBlue "144" .
+
+  
+<http://purl.org/stuff/colors#2F4F4F> a :Color;
+  :name "Slate Grey Dark";
+  rdfs:label "Slate Grey Dark";
+  dc:title "Slate Grey Dark";
+  :hex "#2F4F4F";
+  :rgbRed "47";
+  :rgbGreen "79";
+  :rgbBlue "79" .
+
+  
+<http://purl.org/stuff/colors#778899> a :Color;
+  :name "Slate Grey Light";
+  rdfs:label "Slate Grey Light";
+  dc:title "Slate Grey Light";
+  :hex "#778899";
+  :rgbRed "119";
+  :rgbGreen "136";
+  :rgbBlue "153" .
+
+  
+<http://purl.org/stuff/colors#FFFAFA> a :Color;
+  :name "Snow";
+  rdfs:label "Snow";
+  dc:title "Snow";
+  :hex "#FFFAFA";
+  :rgbRed "255";
+  :rgbGreen "250";
+  :rgbBlue "250" .
+
+  
+<http://purl.org/stuff/colors#00FF7F> a :Color;
+  :name "Spring Green";
+  rdfs:label "Spring Green";
+  dc:title "Spring Green";
+  :hex "#00FF7F";
+  :rgbRed "0";
+  :rgbGreen "255";
+  :rgbBlue "127" .
+
+  
+<http://purl.org/stuff/colors#00FA9A> a :Color;
+  :name "Spring Green Medium";
+  rdfs:label "Spring Green Medium";
+  dc:title "Spring Green Medium";
+  :hex "#00FA9A";
+  :rgbRed "0";
+  :rgbGreen "250";
+  :rgbBlue "154" .
+
+  
+<http://purl.org/stuff/colors#4682B4> a :Color;
+  :name "Steel Blue";
+  rdfs:label "Steel Blue";
+  dc:title "Steel Blue";
+  :hex "#4682B4";
+  :rgbRed "70";
+  :rgbGreen "130";
+  :rgbBlue "180" .
+
+  
+<http://purl.org/stuff/colors#B0C4DE> a :Color;
+  :name "Steel Blue Light";
+  rdfs:label "Steel Blue Light";
+  dc:title "Steel Blue Light";
+  :hex "#B0C4DE";
+  :rgbRed "176";
+  :rgbGreen "196";
+  :rgbBlue "222" .
+
+  
+<http://purl.org/stuff/colors#D2B48C> a :Color;
+  :name "Tan";
+  rdfs:label "Tan";
+  dc:title "Tan";
+  :hex "#D2B48C";
+  :rgbRed "210";
+  :rgbGreen "180";
+  :rgbBlue "140" .
+
+  
+<http://purl.org/stuff/colors#385E0F> a :Color;
+  :name "Terre Verte";
+  rdfs:label "Terre Verte";
+  dc:title "Terre Verte";
+  :hex "#385E0F";
+  :rgbRed "56";
+  :rgbGreen "94";
+  :rgbBlue "15" .
+
+  
+<http://purl.org/stuff/colors#D8BFD8> a :Color;
+  :name "Thistle";
+  rdfs:label "Thistle";
+  dc:title "Thistle";
+  :hex "#D8BFD8";
+  :rgbRed "216";
+  :rgbGreen "191";
+  :rgbBlue "216" .
+
+  
+<http://purl.org/stuff/colors#FFFFFF> a :Color;
+  :name "Titanium White";
+  rdfs:label "Titanium White";
+  dc:title "Titanium White";
+  :hex "#FFFFFF";
+  :rgbRed "255";
+  :rgbGreen "255";
+  :rgbBlue "255" .
+
+  
+<http://purl.org/stuff/colors#FF6347> a :Color;
+  :name "Tomato";
+  rdfs:label "Tomato";
+  dc:title "Tomato";
+  :hex "#FF6347";
+  :rgbRed "255";
+  :rgbGreen "99";
+  :rgbBlue "71" .
+
+  
+<http://purl.org/stuff/colors#18E0D0> a :Color;
+  :name "Turquoise";
+  rdfs:label "Turquoise";
+  dc:title "Turquoise";
+  :hex "#18E0D0";
+  :rgbRed "64";
+  :rgbGreen "224";
+  :rgbBlue "208" .
+
+  
+<http://purl.org/stuff/colors#00C78C> a :Color;
+  :name "Turquoise Blue";
+  rdfs:label "Turquoise Blue";
+  dc:title "Turquoise Blue";
+  :hex "#00C78C";
+  :rgbRed "0";
+  :rgbGreen "199";
+  :rgbBlue "140" .
+
+  
+<http://purl.org/stuff/colors#00CED1> a :Color;
+  :name "Turquoise Dark";
+  rdfs:label "Turquoise Dark";
+  dc:title "Turquoise Dark";
+  :hex "#00CED1";
+  :rgbRed "0";
+  :rgbGreen "206";
+  :rgbBlue "209" .
+
+  
+<http://purl.org/stuff/colors#48D1CC> a :Color;
+  :name "Turquoise Medium";
+  rdfs:label "Turquoise Medium";
+  dc:title "Turquoise Medium";
+  :hex "#48D1CC";
+  :rgbRed "72";
+  :rgbGreen "209";
+  :rgbBlue "204" .
+
+  
+<http://purl.org/stuff/colors#AFEEEE> a :Color;
+  :name "Turquoise Pale";
+  rdfs:label "Turquoise Pale";
+  dc:title "Turquoise Pale";
+  :hex "#AFEEEE";
+  :rgbRed "175";
+  :rgbGreen "238";
+  :rgbBlue "238" .
+
+  
+<http://purl.org/stuff/colors#120A8F> a :Color;
+  :name "Ultramarine";
+  rdfs:label "Ultramarine";
+  dc:title "Ultramarine";
+  :hex "#120A8F";
+  :rgbRed "18";
+  :rgbGreen "10";
+  :rgbBlue "143" .
+
+  
+<http://purl.org/stuff/colors#5C246E> a :Color;
+  :name "Ultramarine Violet";
+  rdfs:label "Ultramarine Violet";
+  dc:title "Ultramarine Violet";
+  :hex "#5C246E";
+  :rgbRed "92";
+  :rgbGreen "36";
+  :rgbBlue "110" .
+
+  
+<http://purl.org/stuff/colors#413E2F> a :Color;
+  :name "Van Dyke Brown";
+  rdfs:label "Van Dyke Brown";
+  dc:title "Van Dyke Brown";
+  :hex "#413E2F";
+  :rgbRed "65";
+  :rgbGreen "62";
+  :rgbBlue "47" .
+
+  
+<http://purl.org/stuff/colors#75100B> a :Color;
+  :name "Venetian Red";
+  rdfs:label "Venetian Red";
+  dc:title "Venetian Red";
+  :hex "#75100B";
+  :rgbRed "117";
+  :rgbGreen "16";
+  :rgbBlue "11" .
+
+  
+<http://purl.org/stuff/colors#6EFF70> a :Color;
+  :name "Veridian Light";
+  rdfs:label "Veridian Light";
+  dc:title "Veridian Light";
+  :hex "#6EFF70";
+  :rgbRed "110";
+  :rgbGreen "255";
+  :rgbBlue "112" .
+
+  
+<http://purl.org/stuff/colors#8F5E99> a :Color;
+  :name "Violet";
+  rdfs:label "Violet";
+  dc:title "Violet";
+  :hex "#8F5E99";
+  :rgbRed "143";
+  :rgbGreen "94";
+  :rgbBlue "153" .
+
+  
+<http://purl.org/stuff/colors#9400D3> a :Color;
+  :name "Violet Dark";
+  rdfs:label "Violet Dark";
+  dc:title "Violet Dark";
+  :hex "#9400D3";
+  :rgbRed "148";
+  :rgbGreen "0";
+  :rgbBlue "211" .
+
+  
+<http://purl.org/stuff/colors#D02090> a :Color;
+  :name "Violet Red";
+  rdfs:label "Violet Red";
+  dc:title "Violet Red";
+  :hex "#D02090";
+  :rgbRed "208";
+  :rgbGreen "32";
+  :rgbBlue "144" .
+
+  
+<http://purl.org/stuff/colors#C71585> a :Color;
+  :name "Violet Red Medium";
+  rdfs:label "Violet Red Medium";
+  dc:title "Violet Red Medium";
+  :hex "#C71585";
+  :rgbRed "199";
+  :rgbGreen "21";
+  :rgbBlue "133" .
+
+  
+<http://purl.org/stuff/colors#DB7A93> a :Color;
+  :name "Violet Red Pale";
+  rdfs:label "Violet Red Pale";
+  dc:title "Violet Red Pale";
+  :hex "#DB7A93";
+  :rgbRed "219";
+  :rgbGreen "122";
+  :rgbBlue "147" .
+
+  
+<http://purl.org/stuff/colors#808069> a :Color;
+  :name "Warm Grey";
+  rdfs:label "Warm Grey";
+  dc:title "Warm Grey";
+  :hex "#808069";
+  :rgbRed "128";
+  :rgbGreen "128";
+  :rgbBlue "105" .
+
+  
+<http://purl.org/stuff/colors#F5DEB3> a :Color;
+  :name "Wheat";
+  rdfs:label "Wheat";
+  dc:title "Wheat";
+  :hex "#F5DEB3";
+  :rgbRed "245";
+  :rgbGreen "222";
+  :rgbBlue "179" .
+
+  
+<http://purl.org/stuff/colors#FFFFFF> a :Color;
+  :name "White";
+  rdfs:label "White";
+  dc:title "White";
+  :hex "#FFFFFF";
+  :rgbRed "255";
+  :rgbGreen "255";
+  :rgbBlue "255" .
+
+  
+<http://purl.org/stuff/colors#F5F5F5> a :Color;
+  :name "White Smoke";
+  rdfs:label "White Smoke";
+  dc:title "White Smoke";
+  :hex "#F5F5F5";
+  :rgbRed "245";
+  :rgbGreen "245";
+  :rgbBlue "245" .
+
+  
+<http://purl.org/stuff/colors#F2F902> a :Color;
+  :name "Windsor Yellow";
+  rdfs:label "Windsor Yellow";
+  dc:title "Windsor Yellow";
+  :hex "#F2F902";
+  :rgbRed "242";
+  :rgbGreen "249";
+  :rgbBlue "2" .
+
+  
+<http://purl.org/stuff/colors#FFFF00> a :Color;
+  :name "Yellow";
+  rdfs:label "Yellow";
+  dc:title "Yellow";
+  :hex "#FFFF00";
+  :rgbRed "255";
+  :rgbGreen "255";
+  :rgbBlue "0" .
+
+  
+<http://purl.org/stuff/colors#9ACD32> a :Color;
+  :name "Yellow Green";
+  rdfs:label "Yellow Green";
+  dc:title "Yellow Green";
+  :hex "#9ACD32";
+  :rgbRed "154";
+  :rgbGreen "205";
+  :rgbBlue "50" .
+
+  
+<http://purl.org/stuff/colors#FFFFE0> a :Color;
+  :name "Yellow Light";
+  rdfs:label "Yellow Light";
+  dc:title "Yellow Light";
+  :hex "#FFFFE0";
+  :rgbRed "255";
+  :rgbGreen "255";
+  :rgbBlue "224" .
+
+  
+<http://purl.org/stuff/colors#E38217> a :Color;
+  :name "Yellow Ochre";
+  rdfs:label "Yellow Ochre";
+  dc:title "Yellow Ochre";
+  :hex "#E38217";
+  :rgbRed "226";
+  :rgbGreen "170";
+  :rgbBlue "5" .
+
+  
+<http://purl.org/stuff/colors#FDF8FF> a :Color;
+  :name "Zinc White";
+  rdfs:label "Zinc White";
+  dc:title "Zinc White";
+  :hex "#FDF8FF";
+  :rgbRed "253";
+  :rgbGreen "248";
+  :rgbBlue "255" .
+
